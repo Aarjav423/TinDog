@@ -1,0 +1,172 @@
+#title{
+    background-color: #ff4c68;
+    color: black;
+    color:#fff;         /*#000 -> Black */
+}
+body{
+    font-family: 'Montserrat',sans-serif;
+}
+h1,h2,h3{
+    font-family: 'Montserrat-Bold',sans-serif;
+    line-height: 1.5;
+}
+h1{
+    font-size: 3.5rem;
+}
+h2{
+    font-size: 3rem;
+    font-weight: 800;
+}
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+/*Navigation-Bar*/
+.navbar{
+    padding: 0 0 4.5rem;
+}
+.navbar-brand{
+    font-family: 'Ubuntu';
+    font-size: 2.3rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat',sans-serif;
+}
+
+/* Download button */
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+/* Title-Image */
+
+.Title-Image{
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+}
+
+/* Features */
+.positioning{
+    position: relative;
+}
+#features {
+    /* position: relative; Using Overflow: hidden */
+    /* margin-top: -15%; */
+     /* padding-top: 5%; i used this along with .container */
+    /* padding: 7% 15%;Angela used this w/o .container */
+    /* background-color: white;  */
+
+    padding: 7% 15%;
+    position: relative;
+    z-index: 1;
+    background-color: #fff;
+
+
+  }
+
+.features-row {
+padding: 5% 15%;  
+}
+
+.features-column {
+text-align: center;
+}
+
+.features-icon {
+color: #ef8172;
+font-size: 3.5rem;
+padding: 0 0 5%;
+}
+
+.features-icon:hover {
+color: #ff4c68;
+}
+
+.features-h3 {
+font-size: 1.5rem;
+font-weight: 900;
+}
+
+.features-p {
+color: #8f8f8f;
+}
+
+/* Testimonial Section */
+
+#testimonials{
+ 
+    background-color: #ef8172;
+    text-align: center;
+    color: #fff;
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+
+/* Press */
+#press{
+    background-color: #ef8172;
+    text-align: center;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing */
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column{
+    padding: 3% 2%
+}
+
+/* Call To Action */
+
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 7% 15%;
+}
+.cta-h3{
+    font-family: 'Montserrat-Black',sans-serif;
+    color: #fff;
+    font-size: 3.5rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+/* footer */
+
+#footer{
+    padding: 7% 15%;
+    background-color: #fff;
+    text-align: center;
+    
+}
+.footer-icon{
+    margin: 20px 10px;
+    border-style: hidden;
+}
+
+@media (max-width: 1028px){    /*use to make the site more responsive with mobile using css */
+    #title{
+        text-align: center  ;
+    }
+    .Title-Image{
+        position: static;
+        transform: rotate(0);
+    }
+}
