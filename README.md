@@ -1,2 +1,2 @@
-#TinDog Website
-[Demo]https://aarjav423.github.io/TinDog/
+# TinDog Website
+[demo](https://aarjav423.github.io/TinDog/)
